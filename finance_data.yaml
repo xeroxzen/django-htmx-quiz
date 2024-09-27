@@ -1,0 +1,124 @@
+---
+-   model: sim.quiz
+    pk: 6
+    fields:
+        name: Finance Fundamentals
+-   model: sim.question
+    pk: 25
+    fields:
+        quiz: 6
+        text: What is the primary goal of corporate finance?
+-   model: sim.answer
+    pk: 49
+    fields:
+        question: 25
+        text: Maximizing shareholder value
+        is_correct: true
+-   model: sim.answer
+    pk: 50
+    fields:
+        question: 25
+        text: Minimizing tax liability
+        is_correct: false
+-   model: sim.question
+    pk: 26
+    fields:
+        quiz: 6
+        text: What does ROI stand for in finance?
+-   model: sim.answer
+    pk: 51
+    fields:
+        question: 26
+        text: Return on Investment
+        is_correct: true
+-   model: sim.answer
+    pk: 52
+    fields:
+        question: 26
+        text: Rate of Inflation
+        is_correct: false
+-   model: sim.question
+    pk: 27
+    fields:
+        quiz: 6
+        text: What is diversification in investing?
+-   model: sim.answer
+    pk: 53
+    fields:
+        question: 27
+        text: Diversification is the strategy of spreading investments across various assets to reduce risk.
+        is_correct: true
+-   model: sim.answer
+    pk: 54
+    fields:
+        question: 27
+        text: Diversification is focusing all investments in one sector to maximize returns.
+        is_correct: false
+-   model: sim.question
+    pk: 28
+    fields:
+        quiz: 6
+        text: What is the time value of money principle?
+-   model: sim.answer
+    pk: 55
+    fields:
+        question: 28
+        text: A dollar today is worth more than a dollar in the future due to its potential earning capacity.
+        is_correct: true
+-   model: sim.answer
+    pk: 56
+    fields:
+        question: 28
+        text: Money does not change value over time, it remains the same.
+        is_correct: false
+-   model: sim.question
+    pk: 29
+    fields:
+        quiz: 6
+        text: What is liquidity in finance?
+-   model: sim.answer
+    pk: 57
+    fields:
+        question: 29
+        text: Liquidity refers to how quickly an asset can be converted into cash without affecting its price.
+        is_correct: true
+-   model: sim.answer
+    pk: 58
+    fields:
+        question: 29
+        text: Liquidity is the amount of profit an investment generates over time.
+        is_correct: false
+-   model: sim.question
+    pk: 30
+    fields:
+        quiz: 6
+        text: What is compound interest?
+-   model: sim.answer
+    pk: 59
+    fields:
+        question: 30
+        text: Compound interest is the interest calculated on both the initial principal and the accumulated interest from previous periods.
+        is_correct: true
+-   model: sim.answer
+    pk: 60
+    fields:
+        question: 30
+        text: Compound interest is the interest calculated only on the initial principal amount.
+        is_correct: false
+-   model: sim.question
+    pk: 31
+    fields:
+        quiz: 6
+        text: What is the difference between stocks and bonds?
+-   model: sim.answer
+    pk: 61
+    fields:
+        question: 31
+        text: Stocks represent ownership in a company, while bonds are a form of debt where the company owes the bondholder.
+        is_correct: true
+-   model: sim.answer
+    pk: 62
+    fields:
+        question: 31
+        text: Stocks and bonds are both forms of ownership in a company.
+        is_correct: false

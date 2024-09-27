@@ -1,0 +1,107 @@
+---
+-   model: sim.quiz
+    pk: 4
+    fields:
+        name: Accounting Fundamentals
+-   model: sim.question
+    pk: 13
+    fields:
+        quiz: 4
+        text: What is the basic accounting equation?
+-   model: sim.answer
+    pk: 25
+    fields:
+        question: 13
+        text: Assets = Liabilities + Equity
+        is_correct: true
+-   model: sim.answer
+    pk: 26
+    fields:
+        question: 13
+        text: Revenue = Expenses + Liabilities
+        is_correct: false
+-   model: sim.question
+    pk: 14
+    fields:
+        quiz: 4
+        text: What are the three main financial statements?
+-   model: sim.answer
+    pk: 27
+    fields:
+        question: 14
+        text: Income Statement, Balance Sheet, Cash Flow Statement
+        is_correct: true
+-   model: sim.answer
+    pk: 28
+    fields:
+        question: 14
+        text: Profit and Loss Report, Tax Report, Shareholder Report
+        is_correct: false
+-   model: sim.question
+    pk: 15
+    fields:
+        quiz: 4
+        text: What does the accrual basis of accounting mean?
+-   model: sim.answer
+    pk: 29
+    fields:
+        question: 15
+        text: Revenues and expenses are recorded when they are earned or incurred, regardless of when cash is exchanged.
+        is_correct: true
+-   model: sim.answer
+    pk: 30
+    fields:
+        question: 15
+        text: Revenues and expenses are recorded only when cash is received or paid.
+        is_correct: false
+-   model: sim.question
+    pk: 16
+    fields:
+        quiz: 4
+        text: What is depreciation?
+-   model: sim.answer
+    pk: 31
+    fields:
+        question: 16
+        text: Depreciation is the allocation of the cost of a tangible asset over its useful life.
+        is_correct: true
+-   model: sim.answer
+    pk: 32
+    fields:
+        question: 16
+        text: Depreciation is the process of valuing a company's intangible assets.
+        is_correct: false
+-   model: sim.question
+    pk: 17
+    fields:
+        quiz: 4
+        text: What is double-entry accounting?
+-   model: sim.answer
+    pk: 33
+    fields:
+        question: 17
+        text: Every transaction is recorded in at least two accounts, with debits and credits balancing.
+        is_correct: true
+-   model: sim.answer
+    pk: 34
+    fields:
+        question: 17
+        text: Each transaction is recorded only in one account, based on its nature.
+        is_correct: false
+-   model: sim.question
+    pk: 18
+    fields:
+        quiz: 4
+        text: What is the purpose of a balance sheet?
+-   model: sim.answer
+    pk: 35
+    fields:
+        question: 18
+        text: To provide a snapshot of a company's assets, liabilities, and equity at a specific point in time.
+        is_correct: true
+-   model: sim.answer
+    pk: 36
+    fields:
+        question: 18
+        text: To show the company's profitability over a period of time.
+        is_correct: false
