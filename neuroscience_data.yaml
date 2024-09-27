@@ -1,0 +1,107 @@
+---
+-   model: sim.quiz
+    pk: 3
+    fields:
+        name: Neuroscience Fundamentals
+-   model: sim.question
+    pk: 7
+    fields:
+        quiz: 3
+        text: What is the basic functional unit of the nervous system?
+-   model: sim.answer
+    pk: 13
+    fields:
+        question: 7
+        text: The neuron
+        is_correct: true
+-   model: sim.answer
+    pk: 14
+    fields:
+        question: 7
+        text: The synapse
+        is_correct: false
+-   model: sim.question
+    pk: 8
+    fields:
+        quiz: 3
+        text: What is the function of myelin in the nervous system?
+-   model: sim.answer
+    pk: 15
+    fields:
+        question: 8
+        text: Myelin insulates axons to increase the speed of electrical signal transmission.
+        is_correct: true
+-   model: sim.answer
+    pk: 16
+    fields:
+        question: 8
+        text: Myelin serves as a neurotransmitter in synaptic transmission.
+        is_correct: false
+-   model: sim.question
+    pk: 9
+    fields:
+        quiz: 3
+        text: What are the two main divisions of the nervous system?
+-   model: sim.answer
+    pk: 17
+    fields:
+        question: 9
+        text: The central nervous system (CNS) and peripheral nervous system (PNS)
+        is_correct: true
+-   model: sim.answer
+    pk: 18
+    fields:
+        question: 9
+        text: The autonomic nervous system and the somatic nervous system
+        is_correct: false
+-   model: sim.question
+    pk: 10
+    fields:
+        quiz: 3
+        text: Which part of the brain is responsible for regulating balance and coordination?
+-   model: sim.answer
+    pk: 19
+    fields:
+        question: 10
+        text: The cerebellum
+        is_correct: true
+-   model: sim.answer
+    pk: 20
+    fields:
+        question: 10
+        text: The hippocampus
+        is_correct: false
+-   model: sim.question
+    pk: 11
+    fields:
+        quiz: 3
+        text: What is the primary function of the hippocampus?
+-   model: sim.answer
+    pk: 21
+    fields:
+        question: 11
+        text: Memory formation
+        is_correct: true
+-   model: sim.answer
+    pk: 22
+    fields:
+        question: 11
+        text: Controlling involuntary muscle movements
+        is_correct: false
+-   model: sim.question
+    pk: 12
+    fields:
+        quiz: 3
+        text: What type of cells in the brain support and protect neurons?
+-   model: sim.answer
+    pk: 23
+    fields:
+        question: 12
+        text: Glial cells
+        is_correct: true
+-   model: sim.answer
+    pk: 24
+    fields:
+        question: 12
+        text: Dopaminergic cells
+        is_correct: false

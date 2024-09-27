@@ -1,0 +1,90 @@
+---
+-   model: sim.quiz
+    pk: 2
+    fields:
+        name: Fundamental Laws of Computer Science
+-   model: sim.question
+    pk: 2
+    fields:
+        quiz: 2
+        text: What is Moore's Law?
+-   model: sim.answer
+    pk: 3
+    fields:
+        question: 2
+        text: The number of transistors on a microchip doubles approximately every two years, increasing computational power.
+        is_correct: true
+-   model: sim.answer
+    pk: 4
+    fields:
+        question: 2
+        text: The number of transistors on a microchip halves approximately every two years, decreasing computational power.
+        is_correct: false
+-   model: sim.question
+    pk: 3
+    fields:
+        quiz: 2
+        text: What does Amdahl's Law state?
+-   model: sim.answer
+    pk: 5
+    fields:
+        question: 3
+        text: Amdahl's Law predicts the maximum speedup achievable by improving a portion of a system, based on the portion of time that can benefit from the improvement.
+        is_correct: true
+-   model: sim.answer
+    pk: 6
+    fields:
+        question: 3
+        text: Amdahl's Law calculates the speed of an algorithm based on the size of the input data.
+        is_correct: false
+-   model: sim.question
+    pk: 4
+    fields:
+        quiz: 2
+        text: What is the Halting Problem?
+-   model: sim.answer
+    pk: 7
+    fields:
+        question: 4
+        text: The Halting Problem refers to the undecidability of determining whether a computer program will eventually stop running or continue forever for a given input.
+        is_correct: true
+-   model: sim.answer
+    pk: 8
+    fields:
+        question: 4
+        text: The Halting Problem determines the time complexity of a program based on its execution time.
+        is_correct: false
+-   model: sim.question
+    pk: 5
+    fields:
+        quiz: 2
+        text: What is Brooks' Law?
+-   model: sim.answer
+    pk: 9
+    fields:
+        question: 5
+        text: Brooks' Law states that adding more people to a late software project only makes it later.
+        is_correct: true
+-   model: sim.answer
+    pk: 10
+    fields:
+        question: 5
+        text: Brooks' Law says adding more people to a software project always speeds it up.
+        is_correct: false
+-   model: sim.question
+    pk: 6
+    fields:
+        quiz: 2
+        text: What is Conway's Law?
+-   model: sim.answer
+    pk: 11
+    fields:
+        question: 6
+        text: Conway's Law states that organizations design systems that reflect their own communication structure.
+        is_correct: true
+-   model: sim.answer
+    pk: 12
+    fields:
+        question: 6
+        text: Conway's Law states that the fastest algorithms have the simplest communication structure.
+        is_correct: false
